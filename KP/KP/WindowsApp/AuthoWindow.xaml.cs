@@ -28,5 +28,11 @@ namespace KP
             //Thread.Sleep(1000);
             MainFrameAutho.NavigationService.Navigate(new AuthoPage());
         }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {//working
+            //if (e.LeftButton.) { }
+            //DragMove();
+        }
     }
 }

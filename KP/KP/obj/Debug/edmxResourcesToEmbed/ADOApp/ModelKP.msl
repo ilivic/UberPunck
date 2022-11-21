@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище CuberPunckModelContainer" CdmEntityContainer="CuberPunckEntities">
+    <EntitySetMapping Name="AvatarItem">
+      <EntityTypeMapping TypeName="CuberPunckModel.AvatarItem">
+        <MappingFragment StoreEntitySet="AvatarItem">
+          <ScalarProperty Name="id_AI" ColumnName="id_AI" />
+          <ScalarProperty Name="Item_id" ColumnName="Item_id" />
+          <ScalarProperty Name="Avatar_id" ColumnName="Avatar_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Avatars">
+      <EntityTypeMapping TypeName="CuberPunckModel.Avatars">
+        <MappingFragment StoreEntitySet="Avatars">
+          <ScalarProperty Name="Id_avatar" ColumnName="Id_avatar" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="Strong" ColumnName="Strong" />
+          <ScalarProperty Name="Dexterity" ColumnName="Dexterity" />
+          <ScalarProperty Name="Mind" ColumnName="Mind" />
+          <ScalarProperty Name="Type_id" ColumnName="Type_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="balances">
+      <EntityTypeMapping TypeName="CuberPunckModel.balances">
+        <MappingFragment StoreEntitySet="balances">
+          <ScalarProperty Name="id_balance" ColumnName="id_balance" />
+          <ScalarProperty Name="Summ" ColumnName="Summ" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Battle">
+      <EntityTypeMapping TypeName="CuberPunckModel.Battle">
+        <MappingFragment StoreEntitySet="Battle">
+          <ScalarProperty Name="id_buttle" ColumnName="id_buttle" />
+          <ScalarProperty Name="AvatarOne" ColumnName="AvatarOne" />
+          <ScalarProperty Name="AvatarSecond" ColumnName="AvatarSecond" />
+          <ScalarProperty Name="result" ColumnName="result" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DataAddBalance">
+      <EntityTypeMapping TypeName="CuberPunckModel.DataAddBalance">
+        <MappingFragment StoreEntitySet="DataAddBalance">
+          <ScalarProperty Name="id_DAB" ColumnName="id_DAB" />
+          <ScalarProperty Name="DateIn" ColumnName="DateIn" />
+          <ScalarProperty Name="AddBall" ColumnName="AddBall" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Item">
+      <EntityTypeMapping TypeName="CuberPunckModel.Item">
+        <MappingFragment StoreEntitySet="Item">
+          <ScalarProperty Name="id_item" ColumnName="id_item" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Strong" ColumnName="Strong" />
+          <ScalarProperty Name="Dexterity" ColumnName="Dexterity" />
+          <ScalarProperty Name="Mind" ColumnName="Mind" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListButle">
+      <EntityTypeMapping TypeName="CuberPunckModel.ListButle">
+        <MappingFragment StoreEntitySet="ListButle">
+          <ScalarProperty Name="id_LB" ColumnName="id_LB" />
+          <ScalarProperty Name="Avatar_id" ColumnName="Avatar_id" />
+          <ScalarProperty Name="SumH" ColumnName="SumH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logins">
+      <EntityTypeMapping TypeName="CuberPunckModel.Logins">
+        <MappingFragment StoreEntitySet="Logins">
+          <ScalarProperty Name="id_login" ColumnName="id_login" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="CuberPunckModel.Roles">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="id_roles" ColumnName="id_roles" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeAvatar">
+      <EntityTypeMapping TypeName="CuberPunckModel.TypeAvatar">
+        <MappingFragment StoreEntitySet="TypeAvatar">
+          <ScalarProperty Name="id_type" ColumnName="id_type" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Strong" ColumnName="Strong" />
+          <ScalarProperty Name="Dexterity" ColumnName="Dexterity" />
+          <ScalarProperty Name="Mind" ColumnName="Mind" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="CuberPunckModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="id_User" ColumnName="id_User" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Roles_id" ColumnName="Roles_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

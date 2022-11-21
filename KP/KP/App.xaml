@@ -4,6 +4,24 @@
              xmlns:local="clr-namespace:KP"
              StartupUri="WindowsApp/AuthoWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="Background" Value="Salmon"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Padding" Value="3"/>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
     </Application.Resources>
 </Application>

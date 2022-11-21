@@ -17,3 +17,11 @@ C:\Users\ilivic911\Desktop\UberPunck\KP\KP\obj\Debug\PagesApp\AuthoPage.g.cs
 C:\Users\ilivic911\Desktop\UberPunck\KP\KP\obj\Debug\PagesApp\RegPage.g.cs
 C:\Users\ilivic911\Desktop\UberPunck\KP\KP\obj\Debug\PagesApp\AuthoPage.baml
 C:\Users\ilivic911\Desktop\UberPunck\KP\KP\obj\Debug\PagesApp\RegPage.baml
+C:\Users\ilivic911\Desktop\UberPunck\KP\KP\bin\Debug\EntityFramework.dll
+C:\Users\ilivic911\Desktop\UberPunck\KP\KP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ilivic911\Desktop\UberPunck\KP\KP\bin\Debug\EntityFramework.xml
+C:\Users\ilivic911\Desktop\UberPunck\KP\KP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ilivic911\Desktop\UberPunck\KP\KP\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ilivic911\Desktop\UberPunck\KP\KP\obj\Debug\KP_Content.g.cs
+C:\Users\ilivic911\Desktop\UberPunck\KP\KP\obj\Debug\KP.csproj.CopyComplete
+C:\Users\ilivic911\Desktop\UberPunck\KP\KP\obj\Debug\App.baml

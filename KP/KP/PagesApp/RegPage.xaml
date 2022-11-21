@@ -9,6 +9,27 @@
       Title="RegPage">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" Grid.Row="1" Grid.Column="1">
+            <TextBlock Text="Name"/>
+            <TextBox x:Name="TxtName" TextChanged="TxtName_TextChanged"/>
+            <TextBlock Text="Login" />
+            <TextBox x:Name="TxtLogin" TextChanged="TxtName_TextChanged"/>
+            <TextBlock Text="Password"/>
+            <PasswordBox x:Name="TxtPassword"/>
+            <StackPanel HorizontalAlignment="Center" Margin="10" Orientation="Horizontal">
+                <Button Content="Revers" Click="Button_Click_1"/>
+                <Button Content="Registration" Click="Button_Click"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>
